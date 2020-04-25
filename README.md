@@ -48,13 +48,7 @@ Carthage builds your dependencies and provides you with binary frameworks, but y
     touch Cartfile
     ```
 
-1. Open the Cartfile you just created:
-
-    ```
-    open -a Xcode Cartfile
-    ```
-
-1. List the desired dependencies in the [Cartfile][], for example:
+1. Open the Cartfile you just created using `open -a Xcode Cartfile` and then list the desired dependencies in the [Cartfile][], for example:
 
     ```
     github "Alamofire/Alamofire" ~> 4.7.2
