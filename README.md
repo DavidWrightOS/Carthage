@@ -43,9 +43,10 @@ Carthage builds your dependencies and provides you with binary frameworks, but y
 1. Get Carthage by opening a Terminal window and running:
 
     ```
+    brew update
     brew install carthage
     ```
-    or choose [another installation method](#installing-carthage)
+    or choose [another installation method](#installing-carthage).
 
 1. Create a [Cartfile][] in the same directory where your `.xcodeproj` or `.xcworkspace` is. You can do this in Terminal by first navigating to the directory that contains your project and then using the `touch` command to create a new file:
 
@@ -60,14 +61,14 @@ Carthage builds your dependencies and provides you with binary frameworks, but y
     open -a Xcode Cartfile
     ```
     
-    1. List the desired dependencies in the [Cartfile][], for example:
+1. List the desired dependencies in the [Cartfile][], for example:
 
     ```
     github "Alamofire/Alamofire" ~> 4.7.2
     github "MessageKit/MessageKit"
     ```
 
-1. Save the file, and then back in the terminal window run:
+1. Save the file, and then run the following in the terminal window:
 
     ```
     carthage update
